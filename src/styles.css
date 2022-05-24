@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+button:focus {
+    outline: none !important;
+}
+
+.overlayed:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    height: 61%;
+}
+ol li {
+    list-style: decimal !important;
+}
+.active-link {
+    color: yellow !important;
+}
+.blog-area:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background: rgba(0,0,0,.35);
+    height: 100%;
+    width: 100%;
+}
